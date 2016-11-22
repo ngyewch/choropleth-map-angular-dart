@@ -13,7 +13,19 @@ class ChoroplethMapDirective implements AfterViewInit {
 
   @override
   ngAfterViewInit() {
-    var map = context['d3'].callMethod('geomap', []).callMethod('geofile', ['packages/choropleth_map_angular_dart/d3-geomap/topojson/world/countries.json']);
-    context['d3'].callMethod('select', [_elementRef.nativeElement]).callMethod('call', [map['draw'], map]);
+    JsObject map = context['d3']['geomap']
+        .callMethod('choropleth', [])
+        .callMethod('geofile', ['packages/choropleth_map_angular_dart/d3-geomap/topojson/world/countries.json'])
+        .callMethod('column', ['value'])
+        .callMethod('unitId', ['country']);
+
+    List<Map<String, String>> data = [];
+    data.add({'country': 'GBR', 'value': "100"});
+    data.add({'country': 'JPN', 'value': "200"});
+
+    context['d3']
+        .callMethod('select', [_elementRef.nativeElement])
+        .callMethod('datum', [new JsObject.jsify(data)])
+        .callMethod('call', [map['draw'], map]);
   }
 }
