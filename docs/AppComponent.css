@@ -1,0 +1,13 @@
+:host {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.unit {
+    fill: #eee;
+    stroke: #fff;
+}

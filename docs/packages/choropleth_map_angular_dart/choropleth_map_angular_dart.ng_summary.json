@@ -1,0 +1,48 @@
+{
+  "ngDeps": {
+    "1": "choropleth_map_angular_dart",
+    "3": [
+      {
+        "1": "src/ChoroplethMapDirective.dart",
+        "2": [
+          "ChoroplethMapDirective"
+        ],
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "src/ChoroplethMap.dart"
+      },
+      {
+        "1": "src/ChoroplethMapDirective.dart"
+      },
+      {
+        "1": "src/DataPoint.dart"
+      }
+    ],
+    "6": "choropleth_map_angular_dart.dart"
+  },
+  "type": {
+    "CHOROPLETH_MAP_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "CHOROPLETH_MAP_DIRECTIVES",
+      "moduleUrl": "asset:choropleth_map_angular_dart/lib/choropleth_map_angular_dart.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "ChoroplethMapDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    }
+  },
+  "alias": {
+    "CHOROPLETH_MAP_DIRECTIVES": [
+      "ChoroplethMapDirective"
+    ]
+  }
+}

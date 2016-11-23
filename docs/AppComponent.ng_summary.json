@@ -1,0 +1,70 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:math",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:choropleth_map_angular_dart/choropleth_map_angular_dart.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "AppComponent",
+        "7": [
+          {
+            "2": "CHOROPLETH_MAP_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "AppComponent.dart"
+  },
+  "type": {
+    "AppComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "my-app",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "AppComponent",
+        "moduleUrl": "asset:choropleth_map_angular_dart/web/AppComponent.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div class=\"ui container\">\r\n    <div class=\"ui secondary menu\">\r\n        <div class=\"item\">\r\n            <span class=\"ui header\">\r\n                Choropleth Map for Angular Dart\r\n            </span>\r\n        </div>\r\n        <div class=\"right menu\">\r\n            <a class=\"ui item\" href=\"https://github.com/ngyewch/choropleth-map-angular-dart\">\r\n                <i class=\"github icon\"></i> Github\r\n            </a>\r\n        </div>\r\n    </div>\r\n    <button class=\"ui primary button\" (click)=\"updateData()\">Update</button>\r\n    <div (choropleth_map)=\"initChoroplethMap($event)\" id=\"map\"></div>\r\n</div>\r\n",
+        "templateUrl": "asset:choropleth_map_angular_dart/web/AppComponent.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:choropleth_map_angular_dart/web/AppComponent.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

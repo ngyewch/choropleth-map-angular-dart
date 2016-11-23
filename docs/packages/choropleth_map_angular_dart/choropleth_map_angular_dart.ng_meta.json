@@ -1,0 +1,201 @@
+{
+  "ngDeps": {
+    "1": "choropleth_map_angular_dart",
+    "3": [
+      {
+        "1": "src/ChoroplethMapDirective.dart",
+        "2": [
+          "ChoroplethMapDirective"
+        ],
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "src/ChoroplethMap.dart"
+      },
+      {
+        "1": "src/ChoroplethMapDirective.dart"
+      },
+      {
+        "1": "src/DataPoint.dart"
+      }
+    ],
+    "6": "choropleth_map_angular_dart.dart",
+    "7": [
+      {
+        "1": "src/ChoroplethMapDirective.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "src/ChoroplethMap.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "src/DataPoint.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "type": {
+    "CHOROPLETH_MAP_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "CHOROPLETH_MAP_DIRECTIVES",
+      "moduleUrl": "asset:choropleth_map_angular_dart/lib/choropleth_map_angular_dart.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "ChoroplethMapDirective",
+              "moduleUrl": "asset:choropleth_map_angular_dart/lib/src/ChoroplethMapDirective.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": [
+                {
+                  "token": {
+                    "value": null,
+                    "identifier": {
+                      "class": "Identifier",
+                      "name": "ElementRef",
+                      "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                      "prefix": null,
+                      "value": null
+                    },
+                    "identifierIsInstance": false
+                  },
+                  "query": null,
+                  "viewQuery": null,
+                  "value": null,
+                  "isAttribute": false,
+                  "isSelf": false,
+                  "isHost": false,
+                  "isSkipSelf": false,
+                  "isOptional": false,
+                  "isValue": false
+                }
+              ]
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "ChoroplethMapDirective",
+            "moduleUrl": "asset:choropleth_map_angular_dart/lib/src/ChoroplethMapDirective.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ElementRef",
+                    "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "query": null,
+                "viewQuery": null,
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
+        }
+      ]
+    },
+    "ChoroplethMap": {
+      "class": "Identifier",
+      "name": "ChoroplethMap",
+      "moduleUrl": "asset:choropleth_map_angular_dart/lib/src/ChoroplethMap.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ChoroplethMapDirective": {
+      "class": "Directive",
+      "isComponent": false,
+      "selector": "[choropleth_map]",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "ChoroplethMapDirective",
+        "moduleUrl": "asset:choropleth_map_angular_dart/lib/src/ChoroplethMapDirective.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ElementRef",
+                "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "query": null,
+            "viewQuery": null,
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {
+        "eventEmitter": "choropleth_map"
+      },
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        6
+      ],
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "DataPoint": {
+      "class": "Identifier",
+      "name": "DataPoint",
+      "moduleUrl": "asset:choropleth_map_angular_dart/lib/src/DataPoint.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {
+    "CHOROPLETH_MAP_DIRECTIVES": [
+      "ChoroplethMapDirective"
+    ]
+  }
+}

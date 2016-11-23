@@ -1,0 +1,16 @@
+<div class="ui container">
+    <div class="ui secondary menu">
+        <div class="item">
+            <span class="ui header">
+                Choropleth Map for Angular Dart
+            </span>
+        </div>
+        <div class="right menu">
+            <a class="ui item" href="https://github.com/ngyewch/choropleth-map-angular-dart">
+                <i class="github icon"></i> Github
+            </a>
+        </div>
+    </div>
+    <button class="ui primary button" (click)="updateData()">Update</button>
+    <div (choropleth_map)="initChoroplethMap($event)" id="map"></div>
+</div>

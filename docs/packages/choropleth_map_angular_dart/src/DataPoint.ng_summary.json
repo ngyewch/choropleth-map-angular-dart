@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "DataPoint": {
+      "class": "Identifier",
+      "name": "DataPoint",
+      "moduleUrl": "asset:choropleth_map_angular_dart/lib/src/DataPoint.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}
