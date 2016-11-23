@@ -11,5 +11,6 @@
             </a>
         </div>
     </div>
-    <div choropleth_map id="map"></div>
+    <button class="ui primary button" (click)="updateData()">Update</button>
+    <div (choropleth_map)="initChoroplethMap($event)" id="map"></div>
 </div>

@@ -6,7 +6,9 @@
 /// More dartdocs go here.
 library choropleth_map_angular_dart;
 
+export 'src/ChoroplethMap.dart';
 export 'src/ChoroplethMapDirective.dart';
+export 'src/DataPoint.dart';
 
 // TODO: Export any libraries intended for clients of this package.
 
